@@ -1,9 +1,10 @@
-//Question 1
-//Create a function that will be able to convert figures from Fahrenheit to Celsius.
-
-function fahrenheitToCelsius(fahrenheit) {
-    var celsius = (fahrenheit - 32) * 5/9;
-    return celsius;
-}
-console.log(fahrenheitToCelsius(32));   // FarToCel (0.0)
-console.log(fahrenheitToCelsius(212));  //  FarToCel (100.0)
+function times(num1, num2) {
+    return num1 * num2;
+  }
+  console.log(times(add(20, 45), subtract(80, 10))); // => 4550
+  // 4550 == ((20 + 45) * (80 - 10))
+  
+  let sum = add(20, 45);
+let difference = subtract(80, 10);
+let result = times(sum, difference);
+console.log(result);
