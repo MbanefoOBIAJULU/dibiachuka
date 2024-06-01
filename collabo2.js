@@ -1,10 +1,10 @@
 //Create a function that will output the first 100 prime numbers.*/
 
-function generatePrimes(count) {
-    let primes = [];
-    let num = 2; // Starting from 2, the first prime number
+function generatePrimes(obinna) {
+    primes = [];
+    num = 2; // Starting from 2, the first prime number
 
-    while (primes.length < count) {
+    while (primes.length < obinna) {
         if (isPrime(num)) {
             primes.push(num);
         }
@@ -22,7 +22,7 @@ function isPrime(n) {
     if (n % 2 === 0 || n % 3 === 0) {
         return false;
     }
-    let i = 5;
+    i = 5;
     while (i * i <= n) {
         if (n % i === 0 || n % (i + 2) === 0) {
             return false;
@@ -31,4 +31,4 @@ function isPrime(n) {
     }
     return true;
 }
-console.log(generatePrimes(50)); // an array containing the first 100 prime numbers
+console.log(generatePrimes(150)); // an array containing the first 100 prime numbers

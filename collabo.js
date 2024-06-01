@@ -65,7 +65,7 @@ function isPrime(n) {
     }
     return true;
 }
-console.log(generatePrimes(200)); // an array containing the first 100 prime numbers
+console.log(generatePrimes(100)); // an array containing the first 100 prime numbers
 
 /*Question 5
 Create a function that will return a boolean specifying if a number is a prime number.*/
