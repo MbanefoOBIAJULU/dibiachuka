@@ -31,4 +31,4 @@ function isPrime(n) {
     }
     return true;
 }
-console.log(generatePrimes(200)); // an array containing the first 100 prime numbers
+console.log(generatePrimes(50)); // an array containing the first 100 prime numbers
