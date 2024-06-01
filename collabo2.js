@@ -1,4 +1,4 @@
-Create a function that will output the first 100 prime numbers.*/
+//Create a function that will output the first 100 prime numbers.*/
 
 function generatePrimes(count) {
     let primes = [];
